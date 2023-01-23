@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <b>개인정보</b>
+    <ul>
+      <li>
+        <label>이름</label> <input type="text" name="name" placeholder="공백없이 입력하세요">
+        <div><label>연락처</label> <input type="tel" name="tel"></div>
+      </li>
+    </ul>
+  </form>
+
+  <form>
+    <b>지원분야</b>
+    <ul>
+      <li class="web1"><label><input type="radio" name="filed">웹 퍼블리싱</label></li>
+      <li class="web2"><label><input type="radio" name="filed">웹 어플 개발</label></li>
+       <li class="web3"><label><input type="radio" name="filed">개발 환경 개선</label></li>
+    </ul>
+  </form>
+
+  <form>
+    <b>지원동기</b>
+    <div class="memo"></div>
+    <textarea rows="5" cols="60"  placeholder="지원 동기를 간략히 써 주세요"></textarea>
+    <div></div>
+    <input type="button" value="접수하기"></input>
+    <input type="reset" value="다시쓰기"></input>
+  </form>
+
+  <style>
+    ul{
+      list-style: none;
+    }
+    form{
+      margin: 30px;
+    }
+    .web1{
+      padding-top: -10px;
+    }
+    .web2{
+      padding-top: 10px;
+    }
+    .web3{
+      padding-top: 10px;
+    }
+    .memo{
+      padding-top: 10px;
+    }
+  </style>
+</body>
+</html>
