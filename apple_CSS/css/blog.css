@@ -1,0 +1,50 @@
+.container{
+    width: 800px;
+    /* 가운데 정렬 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    width: 80%;
+    height: 200px;
+    background-color: #eee;
+    float: left;
+}
+
+.right-img{
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+    padding: 5px 0 0 14px;
+}
+
+.blog-name{
+    float: left;
+}
+
+/* selector 문법 공백 ~안에 있는 모든자식 */
+/* selector 문법> ~안에 있는 직계자식 */
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* 모든 <a>의 폰트사이즈 16px */
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar a:visited{
+    color: black;
+}
