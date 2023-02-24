@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃</title>
+    <link href="./css/shoes.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main-background">
+        <h4 class="main-title">Buy our shoes!</h4>
+        <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="main-button">Buy Now</button>
+    </div>
+
+    <div class="explain-box">
+        <h4>How to design our shoes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Aliquam lacinia est non risus rutrum feugiat.
+        Suspendisse euismod nibh eget est aliquet feugiat.</p>
+    </div>
+
+    <div class="form-background">
+        <div class="form-white">
+            <form>
+            <div class="w-100">
+                <h3>Contact Us</h3>
+                <p>Your Email</p>
+                <input class="form-input" type="email">
+            </div>
+                <div class="w-50">
+                    <p>First Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-50">
+                    <p>Last Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <!-- float 있으니까 clear: both -->
+                <div style="clear: both"></div>
+
+                <div class="w-100">
+                    <p>Message</p>
+                    <textarea class="form-input"></textarea>
+                </div>
+
+                <div>
+                    <input id="sub" type="checkbox">
+                    <!-- label을 누르면 input도 누르게 됨(각각 for, id 부여) -->
+                    <label for="sub">Subscribe</label>
+                    <button class="green-button">SEND</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
