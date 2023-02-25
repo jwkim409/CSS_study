@@ -1,0 +1,31 @@
+/* td, th {
+    border: 1px solid black;
+} */
+
+table {
+    border-collapse: collapse;
+}
+
+.cart-background {
+    width: 100%;
+    padding: 30px;
+    background-color: #c2dede;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;  /* 가운데 정렬 */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cart-table td, .cart-table th {
+    padding: 20px;
+    border-bottom: 2px solid #c2dede;
+    text-align: center;
+}
+
+.cart-table th:nth-child(2){
+    width: 400px;
+}
