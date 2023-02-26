@@ -29,3 +29,66 @@ table {
 .cart-table th:nth-child(2){
     width: 400px;
 }
+
+/* 순서 중요 */
+.btn {
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: chocolate;
+}
+.btn:focus {
+    background-color: grey;
+}
+.btn:active {
+    background-color: brown;
+    border: 2px solid black;
+}
+.input-test {
+    font-size: 20px;
+}
+.input-test:focus {
+    border-bottom: 3px solid yellowgreen;
+}
+.link-test {
+    text-decoration: none;
+}
+.link-test:link {
+    color: violet;
+}
+.link-test:visited {
+    color: black;
+}
+
+/* 뼈대 */
+.main-btn {
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+/* 살점 */
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+
+/* Utility Class(스타일 한두 개만 들어있는 class(맨 위에 적어두면 굿)) */
+.f-small {
+    font-size: 12px;
+}
+.f-mid {
+    font-size: 16px;
+}
+.f-lg {
+    font-size: 20px;
+}
