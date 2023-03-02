@@ -1,87 +1,103 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 button {
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(62, 62, 62);
-    color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(62, 62, 62);
+  color: white;
 }
 
 .main-bg {
-    background: linear-gradient(rgb(85, 143, 252), #8b3bdb);
+  background: linear-gradient(rgb(85, 143, 252), #8b3bdb);
 }
 .main-container {
-    margin: 0 60px 70px 60px;
+  margin: 0 60px 70px 60px;
 }
 .main-container img {
-    float: right;
-    margin-top: -150px;
-    width: 30%;
+  float: right;
+  margin-top: -150px;
+  width: 30%;
 }
 .main-container h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 .main-text {
-    padding: 60px;
-    padding-top: 150px;
+  padding: 60px;
+  padding-top: 150px;
 }
-.main-text h2, p {
-    color: white
+.main-text h2,
+p {
+  color: white;
 }
 .main-text button {
-    width: 100px;
-    height: 42px;
+  width: 100px;
+  height: 42px;
 }
 
 .explain-box {
-    margin: 70px;
+  margin: 70px;
 }
 .explain-box p {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 .explain-box button {
-    width: 130px;
-    height: 40px;
-    margin: auto;
-    display: block;
+  width: 130px;
+  height: 40px;
+  margin: auto;
+  display: block;
 }
 
 .icon-bg {
-    background-color:rgb(79, 119, 238);
-    width: 100%;
-    height: 400px;
+  background-color: rgb(79, 119, 238);
+  width: 100%;
+  height: 400px;
 }
 .icon-bg h2 {
-    text-align: center;
-    color: white;
-    padding-top: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
 }
 .icon-container {
-    color: white;
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  color: white;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.icon-container i{
-    color: rgb(79, 119, 238);
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    padding-top: 25px;
-    box-sizing: border-box;
-    margin-top: 30px;
+.icon-container i {
+  color: rgb(79, 119, 238);
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  margin-top: 30px;
 }
 .icon-container div {
-    float: left;
-    width: 25%;
-    text-align: center;
+  float: left;
+  width: 25%;
+  text-align: center;
 }
 .icon-container p {
-    margin-top: -10px;
+  margin-top: -10px;
+}
+
+.saction-bg {
+  width: 100%;
+}
+.section-container {
+  color: white;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-container img {
+  display: flex;
 }
