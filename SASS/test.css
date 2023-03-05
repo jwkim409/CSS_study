@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: #2a4cb2;
+  font-size: 14px;
+}
+
+.box {
+  color: #2a4cb2;
+  font-size: 18px;
+}
+
+.main-bg h4 {
+  font-size: 14px;
+}
+.main-bg button {
+  color: red;
+}
+
+.btn-red, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  background: green;
+}
+
+.btn-red {
+  background: red;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  width: -1px;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  width: -1px;
+  color: red;
+}/*# sourceMappingURL=test.css.map */

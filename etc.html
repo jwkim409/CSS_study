@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Shadow DOM -->
+    <input type="file" />
+
+    <style>
+      input[type="file"]::-webkit-file-upload-button {
+        background-color: khaki;
+        border: none;
+      }
+    </style>
+
+    <input placeholder="안녕하세요" />
+    <!-- div박스가 두 개임(개발자도구 참고) -->
+    <style>
+      input::-webkit-input-placeholder {
+        color: red;
+      }
+    </style>
+
+    <input type="range" />
+
+    <style>
+      input[type="range" i] {
+        appearance: none;
+      }
+
+      input[type="range" i]::-webkit-slider-thumb {
+        appearance: none;
+        /* 브라우저 기본 CSS 안 보이게 */
+        background-color: aquamarine;
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+  </body>
+</html>
