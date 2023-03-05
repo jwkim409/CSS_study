@@ -1,0 +1,46 @@
+.sh-list {
+  li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid rgb(208, 198, 198);
+    border-radius: 5px;
+  }
+}
+
+.active {
+  background-color: skyblue;
+}
+
+.alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(208, 198, 198);
+  color: white;
+  background-color: rgb(72, 142, 72);
+}
+.alert-box-blue {
+  @extend .alert-box-green;
+  background-color: skyblue;
+}
+.alert-box-yellow {
+  @extend .alert-box-green;
+  background-color: rgb(240, 240, 155);
+  color: black;
+}
+
+.row {
+  box-sizing: border-box;
+}
+
+@mixin colum($hole) {
+  float: left;
+  width: $hole;
+  padding: 15px;
+  border: 1px solid rgb(208, 198, 198);
+}
+.row .col-6 {
+  @include colum(50%);
+}
+.row .col-4 {
+  @include colum(100%/3);
+}
