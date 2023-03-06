@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.btn {
+  padding: 20px;
+  color: white;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.btn:hover {
+  animation-name: 흔들버튼;
+  animation-duration: 1s;
+}
+
+@keyframes 흔들버튼 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  75% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.plus {
+  margin: 30px;
+  font-size: 70px;
+  width: 84px;
+  cursor: pointer;
+}
+
+.plus:hover {
+  animation-name: turn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(45deg) scale(2);
+  }
+}
+
+.ani-navbar {
+  width: 200px;
+  background: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed; /* 모든 요소 앞에 */
+  z-index: 5;
+  text-align: right; /* 첫 화면 검은박스만*/
+  transform: translateX(-150px);
+  transition: all 1s;
+}
+.ani-navbar:hover {
+  transform: translateX(0px); /* 최종화면 */
+  text-align: center;
+}
+.ani-navbar:hover p {
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-250px);
+  }
+  50% {
+    transform: translateX(20px) skewX(-30deg);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
